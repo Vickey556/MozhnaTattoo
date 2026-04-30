@@ -15,7 +15,7 @@ const HeroSection = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-50"
       >
-        <source src="/IMG_1830.MP4" type="video/mp4" />
+        <source src="IMG_1830.MP4" type="video/mp4" />
       </video>
 
       {/* Dark overlay to ensure text readability */}
@@ -105,11 +105,11 @@ const AboutSection = () => {
 // Expertise Section
 const ExpertiseSection = () => {
   const statsData = [
-    { img: '/clients return.png', text: '60% клієнтів повертаються знову або приводять друзів' },
-    { img: '/course.png', text: 'Більше 10 випускників тату-курсів' },
-    { img: '/healed tattoo.png', text: 'Понад 1000 виконаних татуювань' },
-    { img: '/popular tattoo.png', text: 'Найпопулярніші запити — графіка, лайнворк, флористика та символічні тату' },
-    { img: '/team.png', text: 'Середній вік клієнтів — 20–35 років' }
+    { img: 'clients return.png', text: '60% клієнтів повертаються знову або приводять друзів' },
+    { img: 'course.png', text: 'Більше 10 випускників тату-курсів' },
+    { img: 'healed tattoo.png', text: 'Понад 1000 виконаних татуювань' },
+    { img: 'popular tattoo.png', text: 'Найпопулярніші запити — графіка, лайнворк, флористика та символічні тату' },
+    { img: 'team.png', text: 'Середній вік клієнтів — 20–35 років' }
   ];
 
   const StarIcon = () => (
@@ -200,19 +200,19 @@ const MastersSection = () => {
     {
       name: "АНАСТАСІЯ СТАРИНЕЦЬ",
       specs: "Пірсинг, навчання",
-      image: "/tattoo_artist_1_1777048808245.png",
+      image: "tattoo_artist_1_1777048808245.png",
       color: "bg-transparent"
     },
     {
       name: "ВІТАЛІНА ШУМ",
       specs: "Татуювання",
-      image: "/tattoo_artist_2_1777048821101.png",
+      image: "tattoo_artist_2_1777048821101.png",
       color: "bg-transparent"
     },
     {
       name: "ІРИНА МІЛЛЕР",
       specs: "Перманентний макіяж, ламінування",
-      image: "/tattoo_artist_3_1777048833890.png",
+      image: "tattoo_artist_3_1777048833890.png",
       color: "bg-transparent"
     }
   ];
@@ -320,8 +320,8 @@ export const AtmosphereSection = () => {
 
   // Ваші фотографії
   const studioPhotos = [
-    "/vibe1.jpg", "/team.jpg", "/vibe2.jpg", "/team2.jpg",
-    "/vibe3.jpg", "/study.jpg", "/study2.jpg", "/piercing.jpg", "/team3.jpg"
+    "vibe1.jpg", "team.jpg", "vibe2.jpg", "team2.jpg",
+    "vibe3.jpg", "study.jpg", "study2.jpg", "piercing.jpg", "team3.jpg"
   ];
 
   useEffect(() => {
